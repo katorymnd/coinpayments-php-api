@@ -32,7 +32,7 @@ class your_coins extends  keys
         $fnzs_request['key'] = $this->public_key();
         $fnzs_request['format'] = 'json'; //supported values are json and xml 
 
-        // Generate the query string 
+       
         $katorymnd_post_data = http_build_query($fnzs_request, '', '&');
 
         // Calculate the HMAC signature on the POST data 
