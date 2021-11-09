@@ -1,5 +1,4 @@
 
-## License
 MIT License
 
 Copyright (c) Katorymnd
