@@ -71,6 +71,6 @@ print_r($katorymnd_ofyu);
 /*
 $csqg = php_sapi_name() == 'cli' ? "\n" : '<br />';
 print 'Transaction status: ' . $katorymnd_ofyu['result']['status_text'] . $csqg;
-print 'Sent coins ' . sprintf('%.08f', $katorymnd_ofyu['result']['receivedf']) . ' LTCT' . $csqg;
+print 'Sent coins ' . sprintf('%.08f', $katorymnd_ofyu['result']['received']) . ' LTCT' . $csqg;
 print 'Status: ' . $katorymnd_ofyu['result']['status'] . $csqg; // 100 -(means okay - successful)
 */
