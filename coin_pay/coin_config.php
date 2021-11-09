@@ -15,10 +15,10 @@ require "../../payments/payment_settings.php";
 class  keys extends api_details
 {
     //public_key - update me
-    private $katorymnd_giyu = "147c7139980cd75ee0784f2fed8a761a68f22ff0d3e75b769f90f8f26bd96e04";
+    private $katorymnd_giyu = "7c7139980cd75ee0784f2fed8a761a68f22ff0d3e75b769f90f8f26bd96e04";
 
     // private key - update me
-    private $katorymnd_nkag = "06fBae51daee0fe66C64A806A73Fce8869aD972aA2D4b1e74E6209Ce540DF974";
+    private $katorymnd_nkag = "fBae51daee0fe66C64A806A73Fce8869aD972aA2D4b1e74E6209Ce540DF974";
 
     public function public_key()
     {
